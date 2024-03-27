@@ -8,6 +8,12 @@ class Person {
   }
 }
 
+extension sayGoodByeOnPerson on Person {
+  void sayGoodBye(String paramName) {
+    print('Good bye $paramName from $name');
+  }
+}
+
 void main(List<String> args) {
   var nama = Person();
 
@@ -19,4 +25,5 @@ void main(List<String> args) {
   print(nama.country);
 
   nama.sayHello('Budi'); // Hello Budi, my name is Doni
+  nama.sayGoodBye('Budi'); // Good bye Budi from Doni
 }
