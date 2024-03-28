@@ -30,7 +30,7 @@ void main(List<String> args) {
     ..name = 'Doni'
     ..name = 'doni@localhost.com';
 
-  // print(user2.user);
+  print(user2);
   // print(user2.name);
   // print(user2.email);
 }
